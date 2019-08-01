@@ -16,7 +16,8 @@ App({
       { id: 5, url: '../colorectal/index', caption: '结直肠癌分期工具', collected: false },
       { id: 6, url: '../cervical/index', caption: '宫颈肿瘤分期工具', collected: false },
       { id: 7, url: '../npc/index', caption: '鼻咽癌分期工具', collected: false },
-      { id: 8, url: '../stomach/index', caption: '胃癌分期工具', collected: false }      
+      { id: 8, url: '../stomach/index', caption: '胃癌分期工具', collected: false },
+      { id: 9, url: '../SmallIntestine/index', caption: '小肠癌分期工具', collected: false }         
             
     ]
   },

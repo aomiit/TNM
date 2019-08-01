@@ -36,7 +36,7 @@
                 <view class="weui-cell__bd">
                   <view class='list-msg2' bindtap='bindShowMsgT'>
                     <text>{{iT || '请选择T分期'}}</text>
-                    <image style='height:35rpx;width:35rpx;' src='../../../vendor/assets/images/down.png'></image>
+                    <image style='height:35rpx;width:35rpx;' src='../../vendor/assets/images/down.png'></image>
                   </view>
                 </view>
             </view>
@@ -47,7 +47,7 @@
                 <view class="weui-cell__bd">
                   <view class='list-msg2' bindtap='bindShowMsgN'>
                     <text>{{iN || '请选择N分期'}}</text>
-                    <image style='height:35rpx;width:35rpx;' src='../../../vendor/assets/images/down.png'></image>
+                    <image style='height:35rpx;width:35rpx;' src='../../vendor/assets/images/down.png'></image>
                   </view>
                 </view>
             </view>
@@ -58,7 +58,7 @@
                 <view class="weui-cell__bd">
                   <view class='list-msg2' bindtap='bindShowMsgM'>
                     <text>{{iM || '请选择M分期'}}</text>
-                    <image style='height:35rpx;width:35rpx;' src='../../../vendor/assets/images/down.png'></image>
+                    <image style='height:35rpx;width:35rpx;' src='../../vendor/assets/images/down.png'></image>
                   </view>
                 </view>
             </view>

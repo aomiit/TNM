@@ -12,7 +12,8 @@
     "pages/colorectal/index",
     "pages/cervical/index",
     "pages/npc/index",
-    "pages/stomach/index"
+    "pages/stomach/index",
+    "pages/SmallIntestine/index"
 
   ],
   "window": {

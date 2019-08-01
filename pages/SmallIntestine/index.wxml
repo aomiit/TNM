@@ -9,9 +9,9 @@
 
     <form class="main" bindreset="formReset">
         <view class="weui-cells">
-
+                     
             <view class="weui-cell">
-                <view  class="weui-cell__bd"  style="position:relative;left:20%;" >T:</view>
+                <view  class="weui-cell__bd"  style="position:relative;left:10%;" >T:</view>
 
                 <view class="weui-cell__bd">
                   <view class='list-msg2' bindtap='bindShowMsgT'>
@@ -22,7 +22,7 @@
             </view>
 
             <view class="weui-cell">
-                <view  class="weui-cell__bd"  style="position:relative;left:20%;" >N:</view>
+                <view  class="weui-cell__bd"  style="position:relative;left:10%;" >N:</view>
 
                 <view class="weui-cell__bd">
                   <view class='list-msg2' bindtap='bindShowMsgN'>
@@ -33,7 +33,7 @@
             </view>
 
             <view class="weui-cell">
-                <view  class="weui-cell__bd"  style="position:relative;left:20%;" >M:</view>
+                <view  class="weui-cell__bd"  style="position:relative;left:10%;" >M:</view>
 
                 <view class="weui-cell__bd">
                   <view class='list-msg2' bindtap='bindShowMsgM'>
@@ -72,13 +72,9 @@
     </form>
 
     <text class="main_info">
-    适用于:甲状腺乳头状癌，滤泡性甲状腺癌，甲状腺嗜酸细胞癌，甲状腺低分化癌，甲状腺未分化癌。
-
-    不适用于:甲状腺髓样癌,甲状腺淋巴瘤，甲状腺导管囊肿引起的甲状腺癌，卵巢恶性甲状腺肿(malignant struma ovarii,MSO)。
-
-    2016年发布的第8版甲状腺癌TNM分期系统于2018年1月1日正式用于临床。
+    适用于：十二指肠、空肠、回肠的腺癌。（不包括肉瘤，胃肠道间质肿瘤,淋巴瘤,类癌）。
     </text>
 
-    <button style = "width:300rpx;align:center;" type="primary" open-type="share" data-name="pageShare" id="share">我要分享</button>
+    <button style = "width:300rpx;align:center;" type="primary" open-type="share" data-name="pageShare" id="share">我要分享</button>    
 
 </scroll-view>
