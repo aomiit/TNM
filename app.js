@@ -17,8 +17,11 @@ App({
       { id: 6, url: '../cervical/index', caption: '宫颈肿瘤分期工具', collected: false },
       { id: 7, url: '../npc/index', caption: '鼻咽癌分期工具', collected: false },
       { id: 8, url: '../stomach/index', caption: '胃癌分期工具', collected: false },
-      { id: 9, url: '../SmallIntestine/index', caption: '小肠癌分期工具', collected: false }         
-            
+      { id: 9, url: '../SmallIntestine/index', caption: '小肠癌分期工具', collected: false },     
+      { id: 10, url: '../vaginal/index', caption: '阴道癌分期工具', collected: false },     
+      { id: 11, url: '../vulva/index', caption: '外阴癌分期工具', collected: false },     
+      { id: 12, url: '../uteri/index', caption: '子宫体肿瘤分期工具', collected: false },     
+      { id: 13, url: '../ovary/index', caption: '卵巢、输卵管肿瘤和原发性腹膜癌分期工具', collected: false }
     ]
   },
 

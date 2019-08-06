@@ -13,7 +13,11 @@
     "pages/cervical/index",
     "pages/npc/index",
     "pages/stomach/index",
-    "pages/SmallIntestine/index"
+    "pages/SmallIntestine/index",
+    "pages/vulva/index",
+    "pages/uteri/index",
+    "pages/ovary/index",
+    "pages/vaginal/index"
 
   ],
   "window": {
