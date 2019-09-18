@@ -75,7 +75,7 @@ Page({
     }
     return {
       title: '好用的小程序分享给您!',
-      path: '/pages/colorectal/index',
+      path: '/pages/icc/index',
       imageUrl: "",
       success: function (res) {
         // 分享成功
@@ -101,7 +101,7 @@ Page({
       withShareTicket: true
     })
 
-    //console.log(activetnmcontent)
+    ////console.log(activetnmcontent)
   },
   bindShowMsgT: function () {
     this.setData({
@@ -179,15 +179,18 @@ Page({
 
     var tablekey = null;
 
-    if (data.iT && data.iN && data.iM) 
-    {
-      tablecontent = tnmcontent.Table;  
+    if (data.iT && data.iN && data.iM) {
+      tablecontent = tnmcontent.Table;
 
       tablekey = data.iT + '_' + data.iN + '_' + data.iM;
 
-      if (data.iM != "M0") {
-        tablekey = data.iM;
+      if (data.iN == "N1") {
+        tablekey = "AnyT" + '_' + data.iN  + '_' + data.iM;
       }
+
+      if (data.iM != "M0") {
+        tablekey = "AnyT" + '_' + "AnyN" + '_' + data.iM;
+      }      
     }  
 
     //console.log(tablekey);
@@ -224,9 +227,9 @@ Page({
       var keyshow = re.key;
       keyshow = keyshow.replace(/_/g, '');
 
-      // console.log(re);
+      //console.log(re);
 
-      // console.log(keyshow);
+      //console.log(keyshow);
 
       var result = ':    ' + re.result + '期';
             
