@@ -75,6 +75,6 @@
     适用于：十二指肠、空肠、回肠的腺癌。（不包括肉瘤，胃肠道间质肿瘤,淋巴瘤,类癌）。
     </text>
 
-    <button style = "width:300rpx;align:center;" type="primary" open-type="share" data-name="pageShare" id="share">我要分享</button>    
+    <cantactinfo-component></cantactinfo-component>    
 
 </scroll-view>

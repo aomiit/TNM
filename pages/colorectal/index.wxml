@@ -75,6 +75,6 @@
     适用于:腺癌、高级别神经内分泌癌、鳞状细胞癌。
     </text>
 
-    <button style = "width:300rpx;align:center;" type="primary" open-type="share" data-name="pageShare" id="share">我要分享</button>
+    <cantactinfo-component></cantactinfo-component>
 
 </scroll-view>

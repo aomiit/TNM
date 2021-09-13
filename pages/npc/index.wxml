@@ -75,6 +75,6 @@
     适用于:鼻咽上皮性肿瘤。（不包括恶黑/淋巴瘤/肉瘤/骨及软骨肿瘤）。
     </text>
 
-    <button style = "width:300rpx;align:center;" type="primary" open-type="share" data-name="pageShare" id="share">我要分享</button>
+    <cantactinfo-component></cantactinfo-component>
 
 </scroll-view>

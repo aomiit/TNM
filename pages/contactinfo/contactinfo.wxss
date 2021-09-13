@@ -1,0 +1,11 @@
+/* pages/contactinfo/contactinfo.wxss */
+.InfoImg{
+  display:flex; 
+  justify-content: center; 
+  align-items:center; 
+}
+
+.InfoImg image{
+  width: 320rpx;
+  height: 320rpx;
+}

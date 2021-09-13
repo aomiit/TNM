@@ -1,6 +1,8 @@
 //获取应用实例
 var app = getApp();
 
+let interstitialAd = null;
+
 Page({
   data: {
     objectArray: app.globalData.objectArray,
@@ -39,12 +41,26 @@ Page({
 
   onLoad: function () {
     wx.showShareMenu({
-      withShareTicket: true
+      withShareTicket: true,
+      menus:['shareAppMessage','shareTimeline']
     })
+
+    if(wx.createInterstitialAd){
+      interstitialAd = wx.createInterstitialAd({ adUnitId: 'adunit-881201bf1a9bef38' })
+      interstitialAd.onLoad(() => {
+        console.log('onLoad event emit')
+      })
+      interstitialAd.onError((err) => {
+        console.log('onError event emit', err)
+      })
+      interstitialAd.onClose((res) => {
+        console.log('onClose event emit', res)
+      })
+    }
     
     let that = this;
     app.getAppConfig(function (config) {     
-    });
+    });    
   },
 
   handleCollection: function(event) {
@@ -73,6 +89,10 @@ Page({
 
     //更新文章是否的缓存值
     wx.setStorageSync('posts_Collected', objectArray);
+
+    //interstitialAd.show().catch((err) => {
+    //  console.error(err)
+    //})
 
     //提示用户
     wx.showToast({

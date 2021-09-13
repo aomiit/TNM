@@ -9,27 +9,34 @@ App({
     indexArea:{hname:'',hprice:''},    
 
     objectArray: [
-      { id: 1, url: '../lung/index', caption: '肺癌分期工具', collected: false },
-      { id: 2, url: '../thyroid/index', caption: '甲状腺肿瘤分期工具', collected: false },
-      { id: 3, url: '../liver/index', caption: '肝癌分期工具', collected: false },
-	  { id: 4, url: '../icc/index', caption: '肝内胆管细胞癌分期工具', collected: false },
-      { id: 5, url: '../pancreas/index', caption: '胰腺癌分期工具', collected: false },
-      { id: 6, url: '../colorectal/index', caption: '结直肠癌分期工具', collected: false },
-      { id: 7, url: '../cervical/index', caption: '宫颈肿瘤分期工具', collected: false },
-      { id: 8, url: '../npc/index', caption: '鼻咽癌分期工具', collected: false },
-	  { id: 9, url: '../nasal/index', caption: '鼻腔和鼻窦肿瘤分期工具', collected: false },
-	  { id: 10, url: '../hpvp16/index', caption: 'HPV相关性(P16+)口咽癌分期工具', collected: false },
-      { id: 11, url: '../stomach/index', caption: '胃癌分期工具', collected: false },	  
-      { id: 12, url: '../SmallIntestine/index', caption: '小肠癌分期工具', collected: false },     
-      { id: 13, url: '../vaginal/index', caption: '阴道癌分期工具', collected: false },     
-      { id: 14, url: '../vulva/index', caption: '外阴癌分期工具', collected: false },     
-      { id: 15, url: '../uteri/index', caption: '子宫体肿瘤分期工具', collected: false },     
-      { id: 16, url: '../ovary/index', caption: '卵巢、输卵管肿瘤和原发性腹膜癌分期工具', collected: false },
-	  { id: 17, url: '../trophoblastic/index', caption: '滋养叶细胞肿瘤分期工具', collected: false },
-	  { id: 18, url: '../penis/index', caption: '阴茎癌分期工具', collected: false },
+      { id: 1, url: '../lung/index', caption: '肺癌', collected: false },
+      { id: 2, url: '../thyroid/index', caption: '甲状腺肿瘤', collected: false },
+      { id: 3, url: '../liver/index', caption: '肝癌', collected: false },
+      { id: 4, url: '../icc/index', caption: '肝内胆管细胞癌', collected: false },
+      { id: 5, url: '../pancreas/index', caption: '胰腺癌', collected: false },
+      { id: 6, url: '../colorectal/index', caption: '结直肠癌', collected: false },
+      { id: 7, url: '../cervical/index', caption: '宫颈肿瘤', collected: false },
+      { id: 8, url: '../npc/index', caption: '鼻咽癌', collected: false },
+      { id: 9, url: '../nasal/index', caption: '鼻腔和鼻窦肿瘤', collected: false },
+      { id: 10, url: '../hpvp16/index', caption: 'HPV相关性(P16+)口咽癌', collected: false },
+      { id: 11, url: '../stomach/index', caption: '胃癌', collected: false },	  
+      { id: 12, url: '../SmallIntestine/index', caption: '小肠癌', collected: false },     
+      { id: 13, url: '../vaginal/index', caption: '阴道癌', collected: false },     
+      { id: 14, url: '../vulva/index', caption: '外阴癌', collected: false },     
+      { id: 15, url: '../uteri/index', caption: '子宫体肿瘤', collected: false },     
+      { id: 16, url: '../ovary/index', caption: '卵巢、输卵管肿瘤和原发性腹膜癌', collected: false },
+      { id: 17, url: '../trophoblastic/index', caption: '滋养叶细胞肿瘤', collected: false },
+      { id: 18, url: '../penis/index', caption: '阴茎癌', collected: false },
+      { id: 19, url: '../kidney/index', caption: '肾肿瘤', collected: false },
+      { id: 20, url: '../renal/index', caption: '肾盂和输尿管癌', collected: false },
+      { id: 21, url: '../bladder/index', caption: '膀胱癌', collected: false },
+      { id: 22, url: '../urethra/index', caption: '尿道癌', collected: false },
+      { id: 23, url: '../pancreasneuro/index', caption: '胰腺神经内分泌肿瘤', collected: false },
+      { id: 24, url: '../gastricneuro/index', caption: '胃神经内分泌肿瘤', collected: false },
+      { id: 25, url: '../duodenumneuro/index', caption: '十二指肠和Vater壶腹神经内分泌肿瘤', collected: false },
     ]
   },
-  
+
   onLaunch() {
     qcloud.setLoginUrl(config.service.loginUrl);
     this.getConfig();
@@ -73,7 +80,7 @@ App({
       method: 'POST',
       login: true,
       success(res){
-        console.log('程序配置项', res);
+        //console.log('程序配置项', res);
         let data=res.data.data;
         if (res.data.success) {
           that.globalData.bannerList=data.banner;

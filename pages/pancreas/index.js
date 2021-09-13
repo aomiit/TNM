@@ -98,7 +98,8 @@ Page({
 
   onLoad: function () {
     wx.showShareMenu({
-      withShareTicket: true
+      withShareTicket: true,
+      menus:['shareAppMessage','shareTimeline']
     })
 
     //console.log(activetnmcontent)
@@ -186,10 +187,11 @@ Page({
       tablekey = data.iT + '_' + data.iN + '_' + data.iM;
 
       if (data.iT == "T4") {
-        tablekey = data.iT + '_' + data.iM;
+        tablekey = data.iT + '_' + "AnyN" + '_' + data.iM;
       }
+
       if (data.iM == "M1") {
-        tablekey = data.iM;
+        tablekey = "AnyT" + '_' + "AnyN" + '_' + data.iM;
       }
     }  
 

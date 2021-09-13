@@ -17,8 +17,19 @@
     "pages/vulva/index",
     "pages/uteri/index",
     "pages/ovary/index",
-    "pages/vaginal/index"
-
+    "pages/vaginal/index",
+    "pages/kidney/index",
+    "pages/bladder/index",
+    "pages/renal/index",
+    "pages/pancreasneuro/index",
+    "pages/gastricneuro/index",
+    "pages/duodenumneuro/index",
+    "pages/urethra/index",
+    "pages/trophoblastic/index",
+    "pages/penis/index",
+    "pages/icc/index",
+    "pages/nasal/index",
+    "pages/hpvp16/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

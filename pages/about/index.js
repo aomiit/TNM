@@ -7,6 +7,11 @@ Page({
     },
 
     onLoad: function() {
+        wx.showShareMenu({
+            withShareTicket: true,
+            menus:['shareAppMessage','shareTimeline']
+          })
+          
         let that=this;
         app.getAppConfig(function(config){
             console.log('about-config',config)

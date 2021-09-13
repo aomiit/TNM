@@ -1,0 +1,36 @@
+<!--pages/contactinfo/contactinfo.wxml-->
+
+<view class="info" style="align:center">
+  <view>
+        <button style = "width:300rpx;top:4px;align:center;" type="primary" open-type="share" data-name="pageShare" id="share">我要分享</button>
+  </view>
+
+  <view  class = "InfoImg">--</view>
+  <view  class = "InfoImg">微信添加复旦肿瘤邱立新医生手机号</view>
+  <view  class = "InfoImg"><text style='font-weight: bold'>13918529955或18017317211</text></view>
+  <view  class = "InfoImg">或截图下方二维码发送至微信中并长按识别</view>
+  <view  class = "InfoImg">添加复旦肿瘤邱立新医生为好友</view>
+
+  <view  class = "InfoImg">
+  <image src="../../vendor/assets/images/wx.jpg" mode="aspectFit"></image>  
+  </view>
+
+  <view  class = "InfoImg"><text style='font-weight: bold;font-size: 48rpx;color: red;'>即可免费参与/获得</text></view>
+
+  <view  class = "InfoImg">万名肿瘤专业医生互帮互助</view>
+  <view  class = "InfoImg">协作开展临床试验和真实世界研究</view>
+  <view  class = "InfoImg">培训SCI 论文和科普文章写作</view>
+  <view  class = "InfoImg">基因检测综合解读和协助制定治疗方案</view>
+  <view  class = "InfoImg">患者双向转诊</view>
+  <view  class = "InfoImg">协助医生个人品牌运营和患者全程管理</view>
+  <view  class = "InfoImg">事半功倍地管理批量患者</view>
+  <view  class = "InfoImg">万份肿瘤PPT库</view>
+  <view  class = "InfoImg">全套最新指南思维导图版</view>
+  <view  class = "InfoImg">最新版本各大种类指南、专家共识</view>
+  <view  class = "InfoImg">PD-1免疫治疗不良反应处理技巧</view>        
+  <view  class = "InfoImg">各种病历和知情同意书模版</view>
+  <view  class = "InfoImg">……</view>
+
+  <!--<ad unit-id="adunit-f302bb79e5aa036a"></ad>-->
+
+</view>

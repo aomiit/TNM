@@ -17,8 +17,5 @@
 
     </block>
 
-    <view class="info" style="align:center;">
-      <button style = "width:300rpx;align:center;" type="primary" open-type="share" data-name="pageShare" id="share">我要分享</button>
-    </view>
-
+    <cantactinfo-component></cantactinfo-component>
 </scroll-view>
